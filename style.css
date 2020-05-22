@@ -1,5 +1,11 @@
-.btn-primary {
-background-color: #89a3a3d0;
-color: black;
+#main {
+  background-image: url("Assets/background.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 1200px;
 }
 
+.btn-primary {
+  background-color: #89a3a3d0;
+  color: black;
+}
