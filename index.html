@@ -1,91 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harpreet Aulakh Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
-  <!-- Navbar content -->
-  <body>
-    <nav class="navbar navbar-light" style="background-color: #89a3a3d0;">
-      <h2>Harpreet Aulakh</h2>
-      <nav class="nav">
-        <a class="nav-link" href="index.html" style="color: black;">About</a>
-        <a class="nav-link" href="contact.html" style="color: black;"
-          >Contact</a
-        >
-        <a class="nav-link" href="portfolio.html" style="color: black;"
-          >Portfolio</a
-        >
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harpreet Aulakh Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<!-- Navbar content -->
+
+<body>
+  <nav class="navbar" style="background-color: #89a3a3d0;">
+    <h1>Harpreet Aulakh</h1>
+    <nav class="nav">
+      <a class="nav-link" href="index.html" style="color: black;">About</a>
+      <a class="nav-link" href="contact.html" style="color: black;">Contact</a>
+      <a class="nav-link" href="portfolio.html" style="color: black;">Portfolio</a>
     </nav>
-    <!-- End Nav -->
-    <div class="container" id="main">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="page-header">
-            <h1>About Me</h1>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <class class="col-sm">
-            <img
-              src="Assets/pic.jpeg"
-              class="img-fluid"
-              alt="Responsive image"
-              width="200"
-              height="200"
-            />
-          </class>
-
-          <div
-            class="col-sm"
-            style="
-              margin-left: 10px;
-              margin-top: 10px;
-              font-family: sans-serif;
-            "
-          >
-            <p>
-              Hi, my name is Harpreet. I am on my way to becoming a Web
-              Developer learning and living in Houston, Texas. I'm currently
-              working on mastering Rice University's Coding Bootcamp Program.
-              While I'm learning new skills I enjoy implementing them into my
-              new projects. My experiences include developing webpages using
-              HTML, CSS, JavaScrip, JQuery, and Bootsrap. Hobbies away from the
-              web world, I enjoy cooking, traveling and sightseeing.
-            </p>
-          </div>
-        </div>
-      </div>
+  </nav>
+  <!-- End Nav -->
+  <div class="row">
+    <div class="col">
+      <!-- <div class="container"> -->
+      <section id="main">
+        <h2>About Me</h2>
+        <img src="Assets/pic.jpeg" alt="Profile Image" id="profile-image" width="200" height="200" />
+      </section>
     </div>
-    <br />
-    <a
-      class="col"
-      href="https://www.linkedin.com/in/harpreet-aulakh-houston-texas"
-      style="color: black;"
-      >Linkedin</a
-    >
-    <a class="col" href="https://github.com/tuhituhi18" style="color: black;"
-      >GitHub</a
-    >
+    <div class="col" id="bio">
+      <p>
+        Hi, my name is Harpreet. I am on my way to becoming a Web
+        Developer learning and living in Houston, Texas. I'm currently
+        working on mastering Rice University's Coding Bootcamp Program.
+        While I'm learning new skills I enjoy implementing them into my
+        new projects. My experiences include developing webpages using
+        HTML, CSS, JavaScript, JQuery, and Bootsrap. Hobbies away from the
+        web world, I enjoy cooking, traveling and sightseeing.
+      </p>
+
+    </div>
+    <div class="col">
+      <section id="contact-info">
+        <h2>Contact Info:</h2>
+        <ul>
+          <strong>Email:</strong> <a id="email" href="#">h.aulakh2020@gmail.com</a>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <br>
+  <div class="container" id="links">
+    <a class="col" href="https://www.linkedin.com/in/harpreet-aulakh-houston-texas" style="color: black;">Linkedin</a>
+    <a class="col" href="https://github.com/tuhituhi18" style="color: black;">GitHub</a>
     <a class="col" href="" style="color: black;">Resume</a>
+  </div>
+  <footer class="navbar navbar-light" id="footer" style="background-color: #89a3a3d0;">
+    &copy;Copyrght
+  </footer>
 
-    <footer class="navbar navbar-light" style="background-color: #89a3a3d0;">
-      &copy;Copyrght
-    </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  </body>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
